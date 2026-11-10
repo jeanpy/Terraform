@@ -1,0 +1,6 @@
+# Copier en backend.hcl NON versionné et adapter les identifiants du lab.
+storage_account_name = "stockagetfstatelab"
+container_name       = "tfstate"
+key                  = "st01/azure.tfstate"
+use_azuread_auth     = true
+use_cli              = true

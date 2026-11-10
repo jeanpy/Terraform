@@ -1,0 +1,4 @@
+# À copier en backend.tf dans le projet Azure (pas dans les deux projets simultanément).
+terraform {
+  backend "azurerm" {}
+}
