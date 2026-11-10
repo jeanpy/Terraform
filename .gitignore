@@ -1,0 +1,19 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+backend.hcl
+*.pem
+*.key
+id_ed25519
+id_rsa
+.env
+.env.*
+!.env.example
+.DS_Store
+# Garder .terraform.lock.hcl après init pilote, mais ne pas publier un état local.
